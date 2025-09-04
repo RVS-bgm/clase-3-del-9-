@@ -8,19 +8,27 @@ public class Ejercicio3 {
         numeros[2] = 3;
         numeros[3] = 4;
         numeros[4] = 5;
-        System.out.println("for tradicional");
+
         for (int i = 0; i < 5; i++) {
             System.out.println(numeros[i]);
          }
-        System.out.println("    ");
-            int[] num = {5,4,3,2,1};
-            for (int n = 0; n < 5; n++) {
-                System.out.println(numeros[n]);
-
-
-
-
+        int[] nu = new int[5];
+        nu[0] = 5;
+        nu[1] = 4;
+        nu[2] = 3;
+        nu[3] = 2;
+        nu[4] = 1;
+        System.out.println("     ");
+        for (int i = 0; i < 5; i++) {
+            System.out.println(nu[i]);
         }
+
+
+
+
+
+
+
 
 
 
